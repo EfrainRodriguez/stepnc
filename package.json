@@ -1,0 +1,45 @@
+{
+  "name": "stepnctest3",
+  "version": "0.0.1",
+  "description": "Typescript library for reading and writing STEP-NC program files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EfrainRodriguez/stepnc-builder.git"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .js,.ts src",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "keywords": [
+    "step-nc",
+    "step",
+    "P21",
+    "ISO 10303",
+    "ISO 14649"
+  ],
+  "author": "Efrain Rodriguez <efrainrg92@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
