@@ -38,4 +38,4 @@ import stepnc from 'step-nc';
 
 ## License
 
-This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/EfrainRodriguez/step-nc/blob/master/LICENSE). file for more information.
+This project is licensed under the terms of the ISC license. See the [LICENSE](https://github.com/EfrainRodriguez/step-nc/blob/master/LICENSE). file for more information.
