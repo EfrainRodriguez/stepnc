@@ -1,5 +1,5 @@
 {
-  "name": "stepnctest3",
+  "name": "step-nc",
   "version": "0.0.1",
   "description": "Typescript library for reading and writing STEP-NC program files",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/EfrainRodriguez/stepnc-builder.git"
+    "url": "https://github.com/EfrainRodriguez/step-nc.git"
   },
   "type": "module",
   "scripts": {
