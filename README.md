@@ -33,7 +33,7 @@ const stepnc = require('step-nc');
 or
 
 ```javascript
-import stepnc from 'step-nc';
+import * as stepnc from 'step-nc';
 ```
 
 ## License
